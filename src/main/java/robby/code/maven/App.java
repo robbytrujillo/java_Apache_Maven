@@ -1,13 +1,21 @@
 package robby.code.maven;
 
+import com.google.gson.Gson;
 /**
  * Hello world!
  *
  */
-public class git initApp
+//public class git initApp
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+        Gson gson = new Gson();
+
+        Person person = new Person("Robby Ilhamkusuma");
+        String json = gson.toJson(person);
+
+        System.out.println(json);
     }
 }
