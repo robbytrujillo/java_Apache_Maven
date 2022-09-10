@@ -83,6 +83,11 @@
               <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
               </descriptorRefs>
+              <archive>
+                <manifest>
+                  <mainClass>robby.code.maven.App</mainClass>
+                </manifest>
+              </archive>
             </configuration>
             <executions>
               <execution>
