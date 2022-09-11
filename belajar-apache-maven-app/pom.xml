@@ -11,4 +11,12 @@
     </parent>
 
     <artifactId>belajar-apache-maven-app</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>robby-code</groupId>
+            <artifactId>belajar-apache-maven-data</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
 </project>
